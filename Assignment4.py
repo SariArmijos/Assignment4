@@ -34,6 +34,8 @@ while expense != 0 :
             large_expenses.append(expense)
         #Keep track of the expenses
         expense_count += 1
+        #Ask the user to keep adding expenses or exit the loop
+        expense = float(input('Enter an expense or 0 to finish: '))
 #Print total expenses
 #Total number of expenses
 #Total expenses
