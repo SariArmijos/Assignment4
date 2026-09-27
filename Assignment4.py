@@ -37,10 +37,24 @@ while expense != 0 :
         #Ask the user to keep adding expenses or exit the loop
         expense = float(input('Enter an expense or 0 to finish: '))
 #Print total expenses
+print('total expenses'.uppercase()) 
+#Print a break
+print('\n')
 #Total number of expenses
-#Total expenses
-#Average expense
-#Smallest expense
-#Largest expense
+print('Number of expenses: ' + expense_count)
+#Total expenses. Use the sum function to add all expenses from the all_expenses list
+print('Total: ' + sum(all_expenses))
+#Average expense. Since there is not an average function built in Python I had to use a formula
+#To calculate average is total expenses/number of expenses
+print('Total: ' + (sum(all_expenses)/len(all_expenses)))
+#Smallest expense. Use min function to find the smallest expense from the total list
+print('Total: ' + min(all_expenses))
+#Largest expense. Use max function to find the smallest expense from the total list
+print('Total: ' + max(all_expenses))
+#Print a break
+print('\n')
 #Number of small, medium and large expenses
-#I am making changes here
+#Use len functio to count expenses from each list
+print('Small expenses: ' + len(small_expenses))
+print('Moderate expenses: ' + len(moderate_expenses))
+print('Large expenses: ' + len(large_expenses))
