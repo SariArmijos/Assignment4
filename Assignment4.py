@@ -1,7 +1,9 @@
 #Personal Expense Analyzer
 
 #Ask the user to enter their expenses, when they are done they should enter 0
-    #Make sure user inserts a valid number (not negative)
+expense = float(input('Enter an expense or 0 to finish: '))
+#Make sure user inserts a valid number (not negative)
+while expense != 0 :
     #If the user inserts a negative number, ask to insert a valid one 
     #If it is a valid number hen clasify each expense
         #If expense < 25 then small
